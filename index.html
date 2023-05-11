@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html
+  lang="ru-RU"
+  class="no-js"
+  prefix="og: https://ogp.me/ns# website: https://ogp.me/ns/website#"
+>
+  <head>
+    <meta charset="utf-8" />
+    <title>Автоматизация образовательного контента</title>
+    <meta
+      name="description"
+      content="Учись в игре, играй в учёбу - студенческий чат-бот тебе поможет!"
+    />
+    <meta
+      name="keywords"
+      content="чат, бот, квиз, разработка, автоматизация, мессенджер"
+    />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link
+      rel="preload"
+      href="css/main-784270f28a.min.css"
+      as="style"
+      type="text/css"
+    />
+    <link rel="preload" href="js/app-6f20f4e204.min.js" as="script" />
+    <link rel="preload" href="js/main-88d5eb3535.min.js" as="script" />
+    <link rel="preload" href="img/hero/bot-control-hero3.svg" as="image" />
+    <link rel="preload" href="img/shape/galaxy.svg" as="image" />
+    <link rel="preconnect" href="//cdnjs.cloudflare.com/" />
+    <link rel="preconnect" href="//fonts.googleapis.com/" />
+    <link rel="dns-prefetch" href="//cdnjs.cloudflare.com/" />
+    <link rel="dns-prefetch" href="//fonts.googleapis.com/" />
+    <link rel="icon" href="img/favicon.ico" />
+    <link rel="shortcut icon" href="img/favicon.webp" type="image/webp" />
+    <link rel="apple-touch-icon" href="img/apple-touch-icon.webp" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Fira+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="css/main-784270f28a.min.css"
+      type="text/css"
+      rel="stylesheet"
+      media="screen,projection"
+    />
+    <meta name="theme-color" content="#9857ff" />
+  </head>
+  <body>
+    <header class="nav-bg-w main-header navfix fixed-top">
+      <div class="container-fluid m-pad">
+        <div class="menu-header">
+          <div class="dsk-logo">
+            <a class="nav-brand" href="/" title="В начало"
+              ><img
+                src="img/logo-bot2b.svg"
+                alt="Бизнес-Бот"
+                class="mega-darks-logo"
+            /></a>
+          </div>
+          <div class="custom-nav" role="navigation">
+            <ul class="nav-list">
+              <li><a href="#about" class="menu-links">О проекте</a></li>
+              <li><a href="#price" class="menu-links">Стоимость</a></li>
+              <li>
+                <a href="#contact" class="menu-links right-bddr">Контакты</a>
+              </li>
+              <li class="contact-show">
+                <a class="btn-round- trngl btn-br bg-btn"
+                  ><i class="fas fa-phone-alt"></i
+                ></a>
+                <div class="contact-inquiry">
+                  <div class="contact-info-">
+                    <div class="contct-heading">Свяжитесь с нами</div>
+                    <div class="inquiry-card-nn">
+                      <ul>
+                        <li>
+                          <i class="fas fa-phone-alt"></i
+                          ><a href="tel:+79874324446">+7 (987) 432-44-46</a>
+                        </li>
+                        <li>
+                          <i class="fab fa-telegram"></i
+                          ><a href="https://t.me/gradientsmm">@gradientsmm</a>
+                        </li>
+                        <li>
+                          <i class="fas fa-envelope"></i
+                          ><a href="mailto:ashot.tgu@yandex.ru"
+                            >ashot.tgu@yandex.ru</a
+                          >
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <a
+                  href="https://t.me/aget_tgu_bot"
+                  class="btn-br bg-btn3 btshad-b2 lnk"
+                  >Посмотреть бота <span class="circle"></span
+                ></a>
+              </li>
+            </ul>
+          </div>
+          <div class="mobile-menu2">
+            <ul class="mob-nav2">
+              <li>
+                <a
+                  class="btn-round- trngl btn-br bg-btn btshad-b1"
+                  data-toggle="modal"
+                  data-target="#menu-contact"
+                  ><i class="fas fa-phone-alt"></i
+                ></a>
+              </li>
+              <li class="navm-">
+                <a class="toggle"><span></span></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <nav id="main-nav">
+          <ul class="first-nav">
+            <li><a href="#about">О проекте</a></li>
+            <li><a href="#price">Стоимость</a></li>
+            <li><a href="#contact">Контакты</a></li>
+          </ul>
+          <ul class="bottom-nav">
+            <li class="prb">
+              <a href="tel:+79781481088"
+                ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 384">
+                  <path
+                    d="M353.188,252.052c-23.51,0-46.594-3.677-68.469-10.906c-10.719-3.656-23.896-0.302-30.438,6.417l-43.177,32.594
+							c-50.073-26.729-80.917-57.563-107.281-107.26l31.635-42.052c8.219-8.208,11.167-20.198,7.635-31.448
+							c-7.26-21.99-10.948-45.063-10.948-68.583C132.146,13.823,118.323,0,101.333,0H30.813C13.823,0,0,13.823,0,30.813
+							C0,225.563,158.438,384,353.188,384c16.99,0,30.813-13.823,30.813-30.813v-70.323C384,265.875,370.177,252.052,353.188,252.052z"
+                  /></svg
+              ></a>
+            </li>
+            <li class="prb">
+              <a href="tel:+79874324446"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 31.562 31.563"
+                >
+                  <path
+                    d="M 35.176,12.832 C 32.196,9.85 28.235,8.207 24.019,8.206 c -8.704,0 -15.783,7.076 -15.787,15.774 -10e-4,2.981 0.833,5.883 2.413,8.396 l 0.376,0.597 -1.595,5.821 5.973,-1.566 0.577,0.342 c 2.422,1.438 5.2,2.198 8.032,2.199 h 0.006 c 8.698,0 15.777,-7.077 15.78,-15.776 0.001,-4.215 -1.638,-8.179 -4.618,-11.161 z"
+                    style="fill: #fff"
+                    transform="translate(-8.232 -8.206)"
+                  />
+                  <path
+                    d="m 19.268,16.045 c -0.355,-0.79 -0.729,-0.806 -1.068,-0.82 -0.277,-0.012 -0.593,-0.011 -0.909,-0.011 -0.316,0 -0.83,0.119 -1.265,0.594 -0.435,0.475 -1.661,1.622 -1.661,3.956 0,2.334 1.7,4.59 1.937,4.906 0.237,0.316 3.282,5.259 8.104,7.161 4.007,1.58 4.823,1.266 5.693,1.187 0.87,-0.079 2.807,-1.147 3.202,-2.255 0.395,-1.108 0.395,-2.057 0.277,-2.255 -0.119,-0.198 -0.435,-0.316 -0.909,-0.554 -0.474,-0.238 -2.807,-1.385 -3.242,-1.543 -0.435,-0.158 -0.751,-0.237 -1.068,0.238 -0.316,0.474 -1.225,1.543 -1.502,1.859 -0.277,0.317 -0.554,0.357 -1.028,0.119 -0.474,-0.238 -2.002,-0.738 -3.815,-2.354 -1.41,-1.257 -2.362,-2.81 -2.639,-3.285 -0.277,-0.474 -0.03,-0.731 0.208,-0.968 0.213,-0.213 0.474,-0.554 0.712,-0.831 0.237,-0.277 0.316,-0.475 0.474,-0.791 0.158,-0.317 0.079,-0.594 -0.04,-0.831 -0.117,-0.238 -1.039,-2.584 -1.461,-3.522 z"
+                    style="
+                      clip-rule: evenodd;
+                      fill: #0d0c40;
+                      fill-rule: evenodd;
+                    "
+                    transform="translate(-8.232 -8.206)"
+                  /></svg
+              ></a>
+            </li>
+            <li class="prb">
+              <a href="mailto:ashot.tgu@yandex.ru"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"
+                  />
+                  <path d="M0 0h24v24H0z" fill="none" /></svg
+              ></a>
+            </li>
+          </ul>
+        </nav>
+        <div id="menu-contact" class="res-menu p-0 modal fade" role="dialog">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content full">
+              <div class="menu modal-body">
+                <div class="contact-info-">
+                  <div class="contct-heading v-center">
+                    Свяжитесь с нами
+                    <button type="button" class="close" data-dismiss="modal">
+                      &times;
+                    </button>
+                  </div>
+                  <div class="inquiry-card-nn">
+                    <ul>
+                      <li>
+                        <i class="fas fa-phone-alt"></i
+                        ><a href="https://wa.me/79781481088?text="
+                          >+7 (987) 432-44-46</a
+                        >
+                      </li>
+                      <li>
+                        <i class="fab fa-telegram"></i
+                        ><a href="https://t.me/gradientsmm">@gradientsmm</a>
+                      </li>
+                      <li>
+                        <i class="fas fa-envelope"></i
+                        ><a href="mailto:ashot.tgu@yandex.ru"
+                          >ashot.tgu@yandex.ru</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="hero-section hero-bg-bg1">
+      <div class="text-block">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 v-center">
+              <div class="header-heading">
+                <h1>
+                  Учись в игре, играй в учёбу - студенческий чат-бот тебе
+                  поможет!
+                </h1>
+                <a href="https://t.me/aget_tgu_bot" class="btn-main bg-btn lnk"
+                  >Посмотреть бота <i class="fas fa-chevron-right fa-icon"></i
+                  ><span class="circle"></span
+                ></a>
+              </div>
+            </div>
+            <div class="col-lg-6 v-center">
+              <div class="single-image">
+                <img
+                  src="img/hero/bot-control-hero3.svg"
+                  alt="Чат Бот Лендинг"
+                  class="img-fluid"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="about" class="about-agency pad-tb">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 v-center d-none d-sm-block">
+            <div class="image-block">
+              <img
+                src="img/about/about-automation.webp"
+                alt="Что такое лендинг-бот"
+                class="img-fluid no-shadow"
+              />
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="common-heading text-l">
+              <h2>
+                Проект направлен на автоматизацию процессов через интеграцию
+                программного кода в среду чат-ботов для образовательных
+                организаций, оказывающих услуги в сети «Интернет» (в том числе
+                ДПО).
+              </h2>
+              <p>
+                Проект будет существовать в виде модульной оболочки, которую
+                можно будет интегрировать в любую организацию посредством API, в
+                том числе в CRM-системы организации для учета актуальной
+                клиентской базы.
+              </p>
+            </div>
+            <div class="-cta-btn mt70 text-left">
+              <div class="free-cta-title v-center">
+                <p>Смотрите в работе</p>
+                <a href="https://t.me/aget_tgu_bot" class="btn-main bg-btn2 lnk"
+                  >Посмотреть бота<i class="fas fa-chevron-right fa-icon"></i
+                  ><span class="circle"></span
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="service-section pad-tb">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="common-heading">
+              <h2 class="mb30">
+                Глобальная задача проекта: создание полноценной образовательной
+                среды, в которой будут автоматизированы многие аспекты процесса
+                обучения
+              </h2>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-lg-4 col-sm-6 mt30">
+            <div class="s-block wide-sblock">
+              <div class="s-card-icon">
+                <img
+                  src="img/icons/teama.svg"
+                  alt="Бот для покупателя"
+                  class="img-fluid"
+                />
+              </div>
+              <div class="s-block-content">
+                <h4>Подача и прохождение обучающих материалов слушателем</h4>
+                <p>
+                  Вы можете получать доступ к материалам в любое время и из
+                  любого места, общаться с преподавателем через чаты и
+                  участвовать в онлайн-вебинарах
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6 mt30">
+            <div class="s-block wide-sblock">
+              <div class="s-card-icon">
+                <img
+                  src="img/icons/link.svg"
+                  alt="Бот для мессенджера"
+                  class="img-fluid"
+                />
+              </div>
+              <div class="s-block-content">
+                <h4>Автоматизация</h4>
+                <p>
+                  Наша платформа автоматизирует подсчет итоговых результатов
+                  промежуточных задач, что помогает увеличить эффективность
+                  обучения
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6 mt30">
+            <div class="s-block wide-sblock">
+              <div class="s-card-icon">
+                <img
+                  src="img/icons/ecommerce.svg"
+                  alt="Бот для продаж"
+                  class="img-fluid"
+                />
+              </div>
+              <div class="s-block-content">
+                <h4>Геймификация процесса обучения</h4>
+                <p>
+                  Жизни, звезды и прочие составляющие квеста, стимулирующие
+                  студента пройти до конца выбранный курс
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="-cta-btn mt70">
+          <div class="free-cta-title v-center">
+            <a href="https://t.me/aget_tgu_bot" class="btn-main bg-btn2 lnk"
+              >Посмотреть бота <i class="fas fa-chevron-right fa-icon"></i
+              ><span class="circle"></span
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer id="contact">
+      <div class="footer-row1">
+        <div class="container">
+          <div class="row justify-content-between">
+            <div class="col-lg-4 col-sm-6 ftr-brand-pp">
+              <a class="navbar-brand mb25" href="/" style="margin-bottom: 12px"
+                ><img src="img/logo-bot2b.svg" alt="Бизнес-Бот"
+              /></a>
+              <a
+                href="https://t.me/aget_tgu_bot"
+                class="btn-main bg-btn3 lnk mt25"
+                style="display: block; width: fit-content; margin-top: 12px"
+                >Посмотреть бота <i class="fas fa-chevron-right fa-icon"></i
+                ><span class="circle"></span
+              ></a>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+              <h5>Свяжитесь с нами</h5>
+              <ul class="footer-address-list ftr-details">
+                <li>
+                  <span><i class="fas fa-phone-alt"></i></span>
+                  <p>
+                    WhatsApp
+                    <span
+                      ><a href="tel:+79874324446">+7 (987) 432-44-46</a></span
+                    >
+                  </p>
+                </li>
+                <li>
+                  <span><i class="fab fa-telegram"></i></span>
+                  <p>
+                    Telegram
+                    <span
+                      ><a href="https://t.me/gradientsmm">@gradientsmm</a></span
+                    >
+                  </p>
+                </li>
+                <li>
+                  <span><i class="fas fa-envelope"></i></span>
+                  <p>
+                    E-mail
+                    <span
+                      ><a href="mailto:ashot.tgu@yandex.ru"
+                        >ashot.tgu@yandex.ru</a
+                      ></span
+                    >
+                  </p>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+              <h5>Преимущества</h5>
+              <ul class="footer-address-list link-hover">
+                <li>&mdash; Бот бесплатный</li>
+                <li>&mdash; Средний рост вовлечённости ~40%</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div id="modal-container">
+      <div class="modal-background">
+        <div id="modal-content" class="modal"></div>
+      </div>
+    </div>
+    <script src="js/main-88d5eb3535.min.js"></script>
+    <script src="js/app-6f20f4e204.min.js"></script>
+  </body>
+</html>
